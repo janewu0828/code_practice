@@ -59,7 +59,11 @@ public class A338_CountingBitsTest {
 		int[] actual = m.countBits(2);
 
 		// Assert
-		assertEquals(expected, actual);
+		assertEquals(expected.length, actual.length);
+		for (int i = 0; i < expected.length; i++) {
+			System.out.printf("338. num=2, expected=%s, actual=%s\n", expected[i], actual[i]);
+			assertEquals(expected[i], actual[i]);
+		}
 	}
 
 }
