@@ -1,2 +1,3 @@
-# leetcode_practice
-## Top 100 Liked Questions
+# code_practice
+## leetcode
+### Top 100 Liked Questions
