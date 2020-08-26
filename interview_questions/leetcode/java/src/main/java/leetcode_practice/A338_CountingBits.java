@@ -32,6 +32,7 @@ public class A338_CountingBits {
 	// __builtin_popcount in c++ or in any other language.
 
 	public int[] countBits(int num) {
+		// https://www.cnblogs.com/grandyang/p/5294255.html
 		// https://blog.csdn.net/u011500062/article/details/52223221
 		int[] count = new int[num + 1];
 		count[0] = 0;
